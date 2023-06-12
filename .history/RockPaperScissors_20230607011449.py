@@ -1,0 +1,27 @@
+import random
+
+choices = ['pedra', 'papel', 'tesoura']
+
+rnd = random.randint(1, 3)
+
+p = input('escolha pedra, papel ou tesoura: ')
+
+c = choices[rnd]
+
+if p == 'pedra':
+     if c == 'pedra':
+          print('Perdeu!')
+     elif c == 'tesoura':
+          print('Ganhou!')
+     else:
+          print("Empate!")
+elif p == 'papel':
+    if c == 'papel':
+         print("Empate!")
+         elif c == 
+
+    print('Perdeu!')
+    else if p
+
+
+switch()

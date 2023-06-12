@@ -1,0 +1,1 @@
+num = int(input('Insira 3 numeros'))

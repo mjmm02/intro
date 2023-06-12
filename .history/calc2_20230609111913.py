@@ -1,0 +1,6 @@
+def main():
+    x = int(input('Qual é o X? '))
+    print("O quadrado de X é: ")
+
+
+main()

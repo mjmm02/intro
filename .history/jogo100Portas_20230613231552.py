@@ -4,7 +4,7 @@ import random
 def main():
 
     porta = random.randint(1, 100)
-#   print(porta)
+    print(porta)
     tentativas = 1
     resultado = ''
 

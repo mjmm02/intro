@@ -4,7 +4,7 @@ import random
 def main():
 
     porta = random.randint(1, 100)
-#   print(porta)
+    print(porta)
     tentativas = 1
     resultado = ''
 
@@ -36,7 +36,7 @@ def main():
 
         if tentativas > 10:
             resultado = 'A casa de banho fica na porta Nº ' + \
-                str(porta) + '!!\nEntrou na porta errada e molhou-se nas calças, que embaraçoso!!'
+                str(porta) + '!!\nEntrou na porta e molhou-se nas calças, que embaraçoso!!'
             break
 
     print(resultado)

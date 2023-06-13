@@ -4,7 +4,7 @@ import random
 def main():
 
     porta = random.randint(1, 100)
-#   print(porta)
+    print(porta)
     tentativas = 1
     resultado = ''
 
@@ -16,6 +16,10 @@ def main():
         while num < 1 or num > 100:
             num = int(input('Tem de escolher um número entre 1 e 100!! '))
 
+        if num > porta:
+            print('Mais baixo!')
+        elif num < porta:
+            print('Mais alto!!')
         if num == porta:
             resultado = 'Acertou no número!! '
             if (tentativas < 3):
@@ -27,16 +31,12 @@ def main():
             elif tentativas <= 10:
                 resultado += 'Esteve perto dum acidente!!'
             break
-        elif num > porta and tentativas < 10:
-            print('Mais baixo!')
-        elif tentativas < 10:
-            print('Mais alto!!')
 
         tentativas += 1
 
         if tentativas > 10:
             resultado = 'A casa de banho fica na porta Nº ' + \
-                str(porta) + '!!\nEntrou na porta errada e molhou-se nas calças, que embaraçoso!!'
+                str(porta) + '!!\nErrou na porta e molhou-se nas calças, que embaraçoso!!'
             break
 
     print(resultado)

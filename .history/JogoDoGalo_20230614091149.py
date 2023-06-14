@@ -79,7 +79,8 @@ def jogada(p):
     board = board.replace(str(p['num']), aux)
 
     for j in range(len(board) - 1):
-        if board[j] == numbers
-        
+        if board
+        if board[j] == aux:
+            board2.split()
 
 main()

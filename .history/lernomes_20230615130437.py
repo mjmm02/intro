@@ -1,0 +1,6 @@
+with open("nomes.txt", r) as file:
+    lines = file.readlines()
+
+for line in lines:
+    print('Olá' )
+f.read()

@@ -90,8 +90,13 @@ def jogada(p, pos):
     board = "".join(board)
     board2 = "".join(board2)
 
-# def win_condition():
-# TODO
 
+def win_condition():
+
+    if (pos[0] == pos[1] and pos[0] == pos[2] and pos[1] == pos[2]):
+        if pos[0] == player1['token']:
+            print('Ganhou o jogo!!!')
+        else:
+            print('Perdeu o jogo!!')
 
 main()
